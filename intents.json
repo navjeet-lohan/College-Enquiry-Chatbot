@@ -1,0 +1,513 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Good morning",
+        "Good evening",
+        "Is anyone there?"
+      ],
+      "responses": [
+        "Hello! How can I assist you with your college admissions today?",
+        "Hi there! What information do you need about admissions?",
+        "Hey! Ready to help you with your queries."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Talk to you later"
+      ],
+      "responses": [
+        "Goodbye! Best of luck with your admission process.",
+        "See you later! Feel free to come back if you have more questions.",
+        "Bye! Hope I was able to help."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank you very much"
+      ],
+      "responses": [
+        "You're welcome! Glad I could help.",
+        "Anytime! Happy to assist.",
+        "My pleasure! Good luck with your application."
+      ]
+    },
+    {
+      "tag": "admission_process",
+      "patterns": [
+        "How can I apply for admission?",
+        "What is the admission process?",
+        "How do I apply for college?",
+        "What are the steps for admission?"
+      ],
+      "responses": [
+        "You can apply for admission by filling out the online application form on our college website. Make sure to have all your documents ready.",
+        "The admission process involves filling out an application form, submitting your documents, and attending any required entrance exams or interviews."
+      ]
+    },
+    {
+      "tag": "eligibility_criteria",
+      "patterns": [
+        "What are the eligibility criteria?",
+        "Am I eligible for this course?",
+        "What qualifications do I need for admission?",
+        "What is the minimum qualification required?"
+      ],
+      "responses": [
+        "Eligibility criteria vary depending on the course. Generally, you need to have completed your high school education with relevant subjects.",
+        "For undergraduate courses, you need to have passed your 12th grade with a certain percentage. For postgraduate courses, a relevant bachelor's degree is required."
+      ]
+    },
+    {
+      "tag": "courses_offered",
+      "patterns": [
+        "What courses do you offer?",
+        "What programs are available?",
+        "Which degrees can I pursue?",
+        "What are the available courses?"
+      ],
+      "responses": [
+        "We offer a variety of undergraduate and postgraduate programs in fields such as engineering, management, arts, and sciences.",
+        "Our college provides degrees in disciplines like Computer Science, Mechanical Engineering, Business Administration, and more."
+      ]
+    },
+    {
+      "tag": "fee_structure",
+      "patterns": [
+        "What is the fee structure?",
+        "How much does the course cost?",
+        "What are the tuition fees?",
+        "What is the fee for this program?"
+      ],
+      "responses": [
+        "The fee structure varies depending on the course. You can find detailed information on the college website under the admissions section.",
+        "Tuition fees for different programs are listed on our website. Please check the specific program page for accurate details."
+      ]
+    },
+    {
+      "tag": "scholarships",
+      "patterns": [
+        "Are there any scholarships available?",
+        "How can I get a scholarship?",
+        "What are the scholarship options?",
+        "Is financial aid available?"
+      ],
+      "responses": [
+        "Yes, we offer various scholarships based on merit and financial need. You can apply for scholarships during the admission process.",
+        "Scholarships are available for students with outstanding academic performance or those in financial need. More details are available on our website."
+      ]
+    },
+    {
+      "tag": "entrance_exam",
+      "patterns": [
+        "Do I need to take an entrance exam?",
+        "Is there an entrance test?",
+        "What exams are required for admission?",
+        "Which entrance exams are accepted?"
+      ],
+      "responses": [
+        "Yes, some programs require you to take an entrance exam. The specific exams depend on the course you're applying for.",
+        "For certain courses, entrance exams are mandatory. The details can be found in the admission requirements for each program."
+      ]
+    },
+    {
+      "tag": "important_dates",
+      "patterns": [
+        "What are the important dates for admission?",
+        "When is the application deadline?",
+        "When does the admission process start?",
+        "What is the last date to apply?"
+      ],
+      "responses": [
+        "The important dates, including the application deadline and entrance exam dates, are listed on our admissions calendar on the website.",
+        "Application deadlines and other important dates vary by program. Please refer to our admissions page for the exact timeline."
+      ]
+    },
+    {
+      "tag": "campus_facilities",
+      "patterns": [
+        "What facilities are available on campus?",
+        "Tell me about the campus facilities.",
+        "What amenities does the college provide?",
+        "What resources are available for students?"
+      ],
+      "responses": [
+        "Our campus offers state-of-the-art facilities including a library, sports complex, laboratories, and student housing.",
+        "We provide various amenities like Wi-Fi, a well-equipped gym, a cafeteria, and student support services."
+      ]
+    },
+    {
+      "tag": "application_status",
+      "patterns": [
+        "What is the status of my application?",
+        "How can I check my application status?",
+        "Has my application been processed?",
+        "Is my application approved?"
+      ],
+      "responses": [
+        "You can check the status of your application by logging into the admission portal with your credentials.",
+        "To view your application status, please visit our website and use the application tracker tool."
+      ]
+    },
+    {
+      "tag": "document_submission",
+      "patterns": [
+        "What documents are required for admission?",
+        "How do I submit my documents?",
+        "What is the last date for document submission?",
+        "Where do I upload my documents?"
+      ],
+      "responses": [
+        "The required documents typically include your high school transcripts, ID proof, and any relevant certificates. You can upload them on our admissions portal.",
+        "You can submit your documents online via the admissions portal. Please make sure they are submitted before the deadline."
+      ]
+    },
+    {
+      "tag": "interview_process",
+      "patterns": [
+        "Is there an interview process?",
+        "What should I expect in the interview?",
+        "How do I prepare for the interview?",
+        "When will the interview be scheduled?"
+      ],
+      "responses": [
+        "Some programs require an interview as part of the admission process. You will be notified of the interview schedule after your application is reviewed.",
+        "The interview process typically assesses your interest in the program, your academic background, and your future goals. Be prepared to discuss these topics."
+      ]
+    },
+    {
+      "tag": "hostel_accommodation",
+      "patterns": [
+        "Is hostel accommodation available?",
+        "How do I apply for hostel accommodation?",
+        "What are the hostel facilities?",
+        "Can I stay on campus?"
+      ],
+      "responses": [
+        "Yes, hostel accommodation is available for students. You can apply for it during the admission process.",
+        "Our hostels offer comfortable living spaces with facilities like Wi-Fi, dining halls, and recreation rooms. Apply early to secure a spot."
+      ]
+    },
+    {
+      "tag": "placement_support",
+      "patterns": [
+        "What placement support do you offer?",
+        "How is the placement process?",
+        "What companies visit the campus for placements?",
+        "What is the placement record?"
+      ],
+      "responses": [
+        "Our placement cell provides extensive support, including resume workshops, mock interviews, and networking opportunities with recruiters.",
+        "We have a strong placement record with top companies visiting our campus regularly. You can expect opportunities in various sectors depending on your program."
+      ]
+    },
+    {
+      "tag": "course_duration",
+      "patterns": [
+        "What is the duration of this course?",
+        "How long does the program last?",
+        "Is this a full-time or part-time course?",
+        "What are the timings for the course?"
+      ],
+      "responses": [
+        "The course duration varies depending on the program. Most undergraduate programs last 3-4 years, while postgraduate programs are typically 2 years.",
+        "Our programs are full-time, with classes scheduled during weekdays. Specific timings depend on the course schedule."
+      ]
+    },
+    {
+      "tag": "international_students",
+      "patterns": [
+        "Do you accept international students?",
+        "What is the process for international admissions?",
+        "Are there scholarships for international students?",
+        "What are the visa requirements for studying here?"
+      ],
+      "responses": [
+        "Yes, we welcome international students. The admission process is similar, but you will also need to provide proof of English proficiency and a valid visa.",
+        "International students can apply for scholarships. Please check our website for specific details and eligibility criteria."
+      ]
+    },
+    {
+      "tag": "credit_transfer",
+      "patterns": [
+        "Can I transfer credits from another college?",
+        "How does the credit transfer process work?",
+        "Will my previous college credits be accepted?",
+        "Can I join the program in the second year?"
+      ],
+      "responses": [
+        "Yes, we allow credit transfers from accredited institutions. You will need to provide transcripts and course descriptions for evaluation.",
+        "The credit transfer process involves reviewing your previous coursework to determine if it aligns with our program's curriculum."
+      ]
+    },
+    {
+      "tag": "campus_tour",
+      "patterns": [
+        "Can I schedule a campus tour?",
+        "When can I visit the campus?",
+        "Is there a virtual campus tour?",
+        "How do I book a tour of the college?"
+      ],
+      "responses": [
+        "We offer both in-person and virtual campus tours. You can schedule a visit through our website.",
+        "Our virtual tour provides a comprehensive view of the campus, including classrooms, labs, and dormitories. Book your tour online!"
+      ]
+    },
+    {
+      "tag": "extracurricular_activities",
+      "patterns": [
+        "What extracurricular activities are available?",
+        "Can I join clubs and societies?",
+        "Are there sports facilities?",
+        "What events are held on campus?"
+      ],
+      "responses": [
+        "Our college offers a wide range of extracurricular activities, including sports, cultural clubs, and academic societies.",
+        "You can join various student clubs and participate in events like fests, competitions, and seminars throughout the year."
+      ]
+    },
+    {
+      "tag": "financial_aid",
+      "patterns": [
+        "Is financial aid available?",
+        "How do I apply for financial aid?",
+        "What are the financial aid options?",
+        "Can I get a loan for my studies?"
+      ],
+      "responses": [
+        "Yes, financial aid is available for eligible students. You can apply through our financial aid office during the admission process.",
+        "We offer various financial aid options, including scholarships, grants, and student loans. Detailed information is available on our website."
+      ]
+    },
+    {
+      "tag": "language_requirements",
+      "patterns": [
+        "What are the language requirements for admission?",
+        "Do I need to take an English proficiency test?",
+        "What is the minimum TOEFL/IELTS score required?",
+        "Are language courses available for non-native speakers?"
+      ],
+      "responses": [
+        "Non-native English speakers are required to submit TOEFL/IELTS scores as part of the admission process. The minimum score requirements are listed on our website.",   "We offer language support programs for non-native speakers to help them improve their English proficiency before starting their academic courses."
+      ]
+    },
+    {
+      "tag": "course_customization",
+      "patterns": [
+        "Can I choose electives?",
+        "Is there flexibility in course selection?",
+        "Can I design my own study plan?",
+        "Are there interdisciplinary courses available?"
+      ],
+      "responses": [
+        "Yes, our programs offer a variety of electives, allowing you to tailor your education to your interests.",
+        "You have the flexibility to choose courses from different disciplines to create a personalized study plan."
+      ]
+    },
+    {
+      "tag": "internship_opportunities",
+      "patterns": [
+        "Are internships part of the program?",
+        "Can I get an internship during my studies?",
+        "What companies offer internships to students?",
+        "Is there support for finding internships?"
+      ],
+      "responses": [
+        "Yes, many of our programs include mandatory internships. We also provide support in finding internship opportunities.",
+        "Our career services team helps connect students with companies offering internships in various fields."
+      ]
+    },
+    {
+      "tag": "alumni_network",
+      "patterns": [
+        "Is there an alumni network?",
+        "How can I connect with alumni?",
+        "What benefits does the alumni network offer?",
+        "Can alumni help with job placements?"
+      ],
+      "responses": [
+        "Our alumni network is strong and active, providing valuable connections and mentoring opportunities for current students.",
+        "You can connect with our alumni through various networking events and the alumni portal on our website."
+      ]
+    },
+    {
+      "tag": "campus_safety",
+      "patterns": [
+        "How safe is the campus?",
+        "What security measures are in place?",
+        "Is there 24/7 security on campus?",
+        "How do you ensure student safety?"
+      ],
+      "responses": [
+        "Our campus is equipped with 24/7 security, CCTV surveillance, and emergency response teams to ensure student safety.",
+        "We take campus safety seriously, with regular security patrols and a dedicated student safety app for instant alerts."
+      ]
+    },
+    {
+      "tag": "part_time_jobs",
+      "patterns": [
+        "Can I work part-time while studying?",
+        "Are there any on-campus job opportunities?",
+        "What are the rules for part-time work for students?",
+        "How do I find part-time work?"
+      ],
+      "responses": [
+        "Yes, students are allowed to work part-time during their studies. On-campus jobs are available, and you can find listings through our career services.",
+        "Part-time work opportunities are posted on our student portal. We also have partnerships with local businesses for off-campus jobs."
+      ]
+    },
+    {
+      "tag": "identity",
+      "patterns": [
+        "Who are you?",
+        "What are you?",
+        "Are you a robot?",
+        "Tell me about yourself",
+        "What is your name?"
+      ],
+      "responses": [
+        "I’m a virtual assistant here to help you with your college admissions queries.",
+        "I'm an AI designed to assist you with information about college admissions and other queries.",
+        "I'm your friendly chatbot, ready to help you with anything related to our college."
+      ]
+    },
+    {
+      "tag": "capabilities",
+      "patterns": [
+        "What can you do?",
+        "How can you help me?",
+        "What services do you offer?",
+        "Can you answer questions?"
+      ],
+      "responses": [
+        "I can assist you with queries about college admissions, course information, campus facilities, and more.",
+        "I can help you find information about our college, guide you through the admission process, and answer your questions.",
+        "I'm here to provide information, guide you through procedures, and answer any queries you might have."
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "Tell me a joke",
+        "Make me laugh",
+        "Do you know any jokes?",
+        "Tell me something funny"
+      ],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "What do you get when you cross a snowman and a vampire? Frostbite!",
+        "I would tell you a chemistry joke, but I know I wouldn’t get a reaction."
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it?",
+        "Can you tell me the time?",
+        "What’s the time?",
+        "Do you know the time?"
+      ],
+      "responses": [
+        "I'm not equipped with a clock, but you can easily check the time on your device!",
+        "I can't tell time, but I'm always here whenever you need help.",
+        "Sorry, I can't tell the time, but I'm here to assist with any other queries!"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like?",
+        "How's the weather today?",
+        "Is it going to rain?",
+        "Tell me the weather"
+      ],
+      "responses": [
+        "I can't check the weather, but you can easily find it on your favorite weather app.",
+        "I'm not able to provide weather updates, but I'm great at answering college-related questions!",
+        "Weather isn't my specialty, but I'm here to help with anything else you need."
+      ]
+    },
+    {
+      "tag": "age",
+      "patterns": [
+        "How old are you?",
+        "When were you created?",
+        "What’s your age?",
+        "How long have you been around?"
+      ],
+      "responses": [
+        "Age is just a number, and as an AI, I'm timeless!",
+        "I was created to help you, and I’m always learning new things.",
+        "I'm as old as the internet... just kidding, I'm always here, always ready to assist!"
+      ]
+    },
+    {
+      "tag": "favorite_color",
+      "patterns": [
+        "What’s your favorite color?",
+        "Do you have a favorite color?",
+        "Tell me your favorite color"
+      ],
+      "responses": [
+        "I love all colors equally, but blue seems pretty cool!",
+        "As an AI, I appreciate all colors, but I think green is quite refreshing.",
+        "I don’t have a favorite, but I’ve heard that blue is quite popular!"
+      ]
+    },
+    {
+      "tag": "compliment",
+      "patterns": [
+        "You are smart",
+        "You're doing a great job",
+        "I like you",
+        "You are helpful"
+      ],
+      "responses": [
+        "Thank you! I’m here to help.",
+        "I’m glad I could assist you!",
+        "Thanks for the compliment! Let me know how else I can help.",
+        "I appreciate it! I'm here to make your experience better."
+      ]
+    },
+    {
+      "tag": "small_talk",
+      "patterns": [
+        "How's it going?",
+        "What's up?",
+        "How are you?",
+        "How's your day?"
+      ],
+      "responses": [
+        "I’m doing great, thanks for asking! How can I assist you today?",
+        "All systems go! How can I help you?",
+        "I’m here and ready to help you with any questions.",
+        "I’m good, thank you! How can I make your day better?"
+      ]
+    }
+    ,
+    {
+      "tag": "contact_details",
+      "patterns": [
+        "How can I contact the admissions office?",
+        "What is the contact number for admissions?",
+        "Who can I talk to about admissions?",
+        "Where can I get more information?"
+      ],
+      "responses": [
+        "For more information, please reach out to the admissions office. You can find all the contact details on our website."
+      ]
+    }
+  ]
+}
