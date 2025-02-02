@@ -4,88 +4,141 @@ class Chatbox {
             openButton: document.querySelector('.chatbox__button'),
             chatBox: document.querySelector('.chatbox__support'),
             sendButton: document.querySelector('.send__button')
-        }
+        };
 
         this.state = false;
-        this.messages = [];
+
+        // Preload introductory messages
+        this.messages = [
+            {
+                name: "NITJ",
+                message: "Hello! Welcome to the NIT Jalandhar chatbot. I am here to assist you."
+            },
+            {
+                name: "NITJ",
+                message: "You can ask me about B.Tech admissions, courses, campus facilities, and more."
+            }
+        ];
     }
 
     display() {
-        const {openButton, chatBox, sendButton} = this.args;
+        const { openButton, chatBox, sendButton } = this.args;
 
-        openButton.addEventListener('click', () => this.toggleState(chatBox))
+        openButton.addEventListener('click', () => {
+            this.toggleState(chatBox);
 
-        sendButton.addEventListener('click', () => this.onSendButton(chatBox))
+            if (this.state) {
+                this.showIntroMessages(chatBox); // Display intro messages when the chatbot is opened
+            }
+        });
+
+        sendButton.addEventListener('click', () => this.onSendButton(chatBox));
 
         const node = chatBox.querySelector('input');
-        node.addEventListener("keyup", ({key}) => {
+        node.addEventListener("keyup", ({ key }) => {
             if (key === "Enter") {
-                this.onSendButton(chatBox)
+                this.onSendButton(chatBox);
             }
-        })
+        });
     }
 
     toggleState(chatbox) {
         this.state = !this.state;
 
-        // show or hides the box
-        if(this.state) {
-            chatbox.classList.add('chatbox--active')
+        // Show or hide the chatbox
+        if (this.state) {
+            chatbox.classList.add('chatbox--active');
         } else {
-            chatbox.classList.remove('chatbox--active')
+            chatbox.classList.remove('chatbox--active');
         }
+    }
+
+    showIntroMessages(chatbox) {
+        let index = 0;
+        const interval = setInterval(() => {
+            if (index < this.messages.length) {
+                this.updateChatText(chatbox);
+                index++;
+            } else {
+                clearInterval(interval);
+            }
+        }, 2000); // Delay of 1.5 seconds between messages
     }
 
     onSendButton(chatbox) {
         var textField = chatbox.querySelector('input');
-        let text1 = textField.value
+        let text1 = textField.value;
         if (text1 === "") {
             return;
         }
-
-        let msg1 = { name: "User", message: text1 }
+    
+        let msg1 = { name: "User", message: text1 };
         this.messages.push(msg1);
-
+    
         fetch('http://127.0.0.1:5000/predict', {
             method: 'POST',
             body: JSON.stringify({ message: text1 }),
             mode: 'cors',
             headers: {
-              'Content-Type': 'application/json'
+                'Content-Type': 'application/json'
             },
-          })
-          .then(r => r.json())
-          .then(r => {
-            let msg2 = { name: "Sam", message: r.answer };
-            this.messages.push(msg2);
-            this.updateChatText(chatbox)
-            textField.value = ''
-
-        }).catch((error) => {
+        })
+        .then(r => r.json())
+        .then(r => {
+            if (Array.isArray(r.answer)) {
+                r.answer.forEach((response) => {
+                    let msg2;
+                    if (typeof response === "string") {
+                        // Convert \n to <br> for line breaks
+                        msg2 = { name: "NITJ", message: response.replace(/\n/g, "<br>") };
+                    } else if (response.type === "image") {
+                        // Image response case
+                        msg2 = {
+                            name: "NITJ",
+                            message: `<div>${response.text.replace(/\n/g, "<br>")}</div><img src="${response.image_url}" alt="Image" class="chat-image">`
+                        };
+                    } else if (response.type === "text" && response.url) {
+                        // Text with hyperlink response case
+                        msg2 = {
+                            name: "NITJ",
+                            message: `${response.text.replace(/\n/g, "<br>")} <a href="${response.url}" target="_blank" class="chat-link">Click here</a>`
+                        };
+                    } else {
+                        msg2 = { name: "NITJ", message: "I'm sorry, I couldn't process this response." };
+                    }
+                    this.messages.push(msg2);
+                    this.updateChatText(chatbox);
+                });
+            } else {
+                let msg2 = { name: "NITJ", message: (r.answer || "I didn't understand that.").replace(/\n/g, "<br>") };
+                this.messages.push(msg2);
+                this.updateChatText(chatbox);
+            }
+    
+            textField.value = "";
+        })
+        .catch((error) => {
             console.error('Error:', error);
-            this.updateChatText(chatbox)
-            textField.value = ''
-          });
+            this.updateChatText(chatbox);
+            textField.value = "";
+        });
     }
+    
 
     updateChatText(chatbox) {
         var html = '';
-        this.messages.slice().reverse().forEach(function(item, index) {
-            if (item.name === "Sam")
-            {
-                html += '<div class="messages__item messages__item--visitor">' + item.message + '</div>'
+        this.messages.slice().reverse().forEach(function (item) {
+            if (item.name === "NITJ") {
+                html += `<div class="messages__item messages__item--visitor">${item.message}</div>`;
+            } else {
+                html += `<div class="messages__item messages__item--operator">${item.message}</div>`;
             }
-            else
-            {
-                html += '<div class="messages__item messages__item--operator">' + item.message + '</div>'
-            }
-          });
+        });
 
         const chatmessage = chatbox.querySelector('.chatbox__messages');
         chatmessage.innerHTML = html;
     }
 }
-
 
 const chatbox = new Chatbox();
 chatbox.display();
