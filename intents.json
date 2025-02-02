@@ -1,90 +1,86 @@
 {
   "intents": [
     {
-      "tag": "greeting",
+      "tag": "ADMISSION : B tech admissions",
       "patterns": [
-        "Hi",
-        "Hey",
-        "Hello",
-        "Good morning",
-        "Good evening",
-        "Is anyone there?"
+        "How can I apply for Btech?",
+        "What is the admission process for BTech?",
+        "How do I apply for Btech?",
+        "What are the steps for admission in Btech?"
       ],
       "responses": [
-        "Hello! How can I assist you with your college admissions today?",
-        "Hi there! What information do you need about admissions?",
-        "Hey! Ready to help you with your queries."
+        " Admission Process for the B.Tech programme:",
+        "1. Admission through JoSAA: \n Admission to the B.Tech. programmes of the Institute are carried out each year on the basis of performance of the students in the Joint Entrance Examination (JEE-Main) by common counselling through Joint Seat Allocation Authority (JoSAA). For admission to the B. Tech. and B. Arch. Programmes, the Institute shall follow the reservation policy as notified by MHRD, Govt. of India from time to time",
+        "2. Admission under DASA programme: \n Direct Admission Student who are Foreign nationals either residing in India or abroad or Indian nationals residing abroad may be admitted to UG programme under the Direct Admission Students Abroad (DASA) scheme according to the policy guidelines laid down by the MHRD Govt. of India from time to time. A few admissions are also given through the Ministry of External Affairs based on self- financing scheme as decided by the MHRD Govt. of India from time to time.",
+        "3. Admission under Cultural Exchange Programme(ICCR):\n A few admissions are offered under the Cultural Exchange Fellowship Programme of the Government of India, administered by the Indian Council of Cultural Relations (ICCR), New Delhi through the Ministry of External Affairs as decided by the MHRD Govt. of India from time to time. For these admissions, the candidates are required to apply through the Indian High Commission/Embassy in their respective countries.",
+        "4. Admission under Study in India Programme(SII):\n A few admissions are offered under the Study in India Programme for the foreign students under Government of India Scheme to Study in India."
       ]
     },
     {
-      "tag": "goodbye",
+      "tag": "ADMISSION : M tech admissions",
       "patterns": [
-        "Bye",
-        "Goodbye",
-        "See you later",
-        "Talk to you later"
+        "How can I apply for Mtech?",
+        "What is the admission process for MTech?",
+        "How do I apply for Mtech?",
+        "What are the steps for admission in Mtech?"
       ],
       "responses": [
-        "Goodbye! Best of luck with your admission process.",
-        "See you later! Feel free to come back if you have more questions.",
-        "Bye! Hope I was able to help."
+        "Admission Process for M Tech programme is as follows:",
+        "1. Admissions to M. Tech. programme of the Institute shall be carried out through Centralized Counselling for M. Tech./M. Arch./M. Plan. Admissions (CCMT) jointly conducted by various NIT’s.",
+        "2. The Board of Governors of the Institute on the recommendations of the Institute Senate will decide on the number of seats for various Departments/Centers/specializations. The reservations of seats for the reserved category candidates will be as per the Govt. of India norms provided the candidates have valid GATE score and satisfy other Senate requirements.",
+        "3.  For each programme, eligibility is defined based on certain combinations of degree disciplines and GATE paper. The students are advised to visit the CCMT website for the seat matrix and eligibility matrix, which provides number of seats available under different category in each programme. The selected candidates should satisfy all the admission requirements as stipulated on the CCMT website and the Institute M. Tech. Regulations and only then they will be admitted to M. Tech. Programme after payment of the prescribed fee and other charges. If at any subsequent time, it is found that the candidates do not fulfill any of the stipulated requirements, the Dean (Academic) may revoke his/her admission to the programme, with the approval of the Director-cum-Chairman Senate."
       ]
     },
     {
-      "tag": "thanks",
+      "tag": "ADMISSION : M Sc admissions",
       "patterns": [
-        "Thanks",
-        "Thank you",
-        "That's helpful",
-        "Thank you very much"
+        "Msc admission process",
+        "How can I apply for M Sc?",
+        "What is the admission process for MSc?",
+        "How do I apply for M.Sc.?",
+        "What are the steps for admission in M.Sc.?"
       ],
       "responses": [
-        "You're welcome! Glad I could help.",
-        "Anytime! Happy to assist.",
-        "My pleasure! Good luck with your application."
+        "1. Admission to the Institute M. Sc. programmes shall be conducted at centralized level through Centralized Counselling for M. Sc./M. Sc. (Tech) CCMN based on the performance of the candidates in the Joint Admission Test for M. Sc. (JAM) each year",
+        "2. The Board of Governors of the Institute on the recommendations of the Institute Senate will decide on the number of seats for various Departments/Centers/ specializations. The reservations of seats for the reserved categories candidates will be as per the Govt. of India norms.",
+        "3. Dean (Academic) will recommend to the Chairman Senate regarding the operational aspects of the Programme including selection of candidates, the academic calendar and other regular activities regarding the conduct of the programme. If there are any vacancies after the admission date is over, the filling of such vacancies will be decided by the Chairman of the Senate.",
+        "4. Regarding all matters concerning selection of candidates, the decision of the Chairman Senate or his nominee will be final.",
+        "5. The selected candidates should satisfy all other admission requirements stipulated in the letter of offer of admission and only then they will be admitted to M. Sc. Programmes after payment of the prescribed fee and other charges. If at any subsequent time, it is found that the candidates do not fulfill any of the stipulated requirements, Dean (Academic) may revoke his/her admission to the programme, with the approval of the Director."
       ]
     },
     {
-      "tag": "admission_process",
+      "tag": "ADMISSION : MBA admissions",
       "patterns": [
-        "How can I apply for admission?",
-        "What is the admission process?",
-        "How do I apply for college?",
-        "What are the steps for admission?"
+        "MBA admission process",
+        "How can I apply for MBA?",
+        "What is the admission process for MBA?",
+        "How do I apply for MBA?",
+        "What are the steps for admission in MBA?"
       ],
       "responses": [
-        "You can apply for admission by filling out the online application form on our college website. Make sure to have all your documents ready.",
-        "The admission process involves filling out an application form, submitting your documents, and attending any required entrance exams or interviews."
+        " Admission Process for MBA programme is as follows: Admissions shall be made on All India Basis. Reservation rules of Govt. of India will be followed.",
+        "1. Admissions will be made on the basis of CAT/GMAT/CMAT/MAT/Institute test (70% weightage), Group Discussion (15% weightage), and Interview (15% weightage). The weightage for the percentile for CAT/GMAT/CMAT/MAT is given below. Percentile Scores below 40 will not be considered for admission.",
+        "2. Equivalent Marks for CAT/GMAT/CMAT/MAT exam percentile Percentile 40-49 50-59 60-69 70-79 80-89 90 & above CAT/GMAT 40 45 50 60 65 70 MAT/CMAT 35 40 45 55 60 70.",
+        "4. The Shortlisted candidates with valid CAT/GMAT/CMAT/MAT score will directly appear in for group discussion and personal interview. At first, the seats will be filled from CAT/GMAT/CMAT/MAT Marks+GD+PI Score. Remaining vacant seats will be filled from Institute’s Test Marks+GD+PI Score. All admissions will be provisional till these are confirmed subject to medical fitness, payment of all the fees, fulfilment of eligibility conditions, and verifications of certificates by the Academic Section of the Institute. The candidates whose result will be awaited as on date of counselling must have to submit the result (original/revaluation) immediately after its, failing which the admission may be cancelled.",
+        "5. The selected candidates should satisfy all other admission requirements stipulated in the letter of offer of admission and only then they will be admitted to M. Sc. Programmes after payment of the prescribed fee and other charges. If at any subsequent time, it is found that the candidates do not fulfill any of the stipulated requirements, Dean (Academic) may revoke his/her admission to the programme, with the approval of the Director.",
+        "6. Regarding all matters concerning selection of candidates, the decision of the Chairman Senate or his nominee will be final. The selected candidates should satisfy all other admission requirements stipulated in the letter of offer of admission and only then they will be admitted to M.B.A Programmes after payment of the prescribed fee and other charges. If at any subsequent time, it is found that the candidates do not fulfill any of the stipulated requirements, Dean (Academic) may revoke his/her admission to the programme, with the approval of the Director."
       ]
     },
     {
-      "tag": "eligibility_criteria",
+      "tag": "ADMISSION : Undergraduate courses_offered",
       "patterns": [
-        "What are the eligibility criteria?",
-        "Am I eligible for this course?",
-        "What qualifications do I need for admission?",
-        "What is the minimum qualification required?"
+        "Btech courses",
+        "Btech programmes",
+        "What courses do you offer in B.Tech?",
+        "What programs are available in Btech?",
+        "What are the available undergraduate courses?"
       ],
       "responses": [
-        "Eligibility criteria vary depending on the course. Generally, you need to have completed your high school education with relevant subjects.",
-        "For undergraduate courses, you need to have passed your 12th grade with a certain percentage. For postgraduate courses, a relevant bachelor's degree is required."
+        "Four years Bachelor of Technology (B.Tech) Programmes \n: Bio Technology\n Chemical Engineering\n Civil Engineering\n Computer Science and Engineering\n Data Science and Engineering\n Electrical Engineering\n Electronics and Communication Engineering\n Electronics and VLSI Engineering\n Industrial and Production Engineering\n Information Technology\n Instrumentation and Control Engineering\n Mechanical Engineering\n Textile Technology"
       ]
     },
     {
-      "tag": "courses_offered",
-      "patterns": [
-        "What courses do you offer?",
-        "What programs are available?",
-        "Which degrees can I pursue?",
-        "What are the available courses?"
-      ],
-      "responses": [
-        "We offer a variety of undergraduate and postgraduate programs in fields such as engineering, management, arts, and sciences.",
-        "Our college provides degrees in disciplines like Computer Science, Mechanical Engineering, Business Administration, and more."
-      ]
-    },
-    {
-      "tag": "fee_structure",
+      "tag": "Fees : fee_structure",
       "patterns": [
         "What is the fee structure?",
         "How much does the course cost?",
@@ -92,8 +88,16 @@
         "What is the fee for this program?"
       ],
       "responses": [
-        "The fee structure varies depending on the course. You can find detailed information on the college website under the admissions section.",
         "Tuition fees for different programs are listed on our website. Please check the specific program page for accurate details."
+      ]
+    },
+    {
+      "tag": "Fees : Fee_refund",
+      "patterns": [
+        "Fee refund"
+      ],
+      "responses": [
+        "The institute shall refund the entire fee after deduction of one thousand rupees to those candidates who surrender/withdraw their seat before the date of closing of the admission every year and the seats vacated by them are filled through waitlisted candidates/spot admissions. However only caution money shall be refunded to candidates who surrender/withdraw their admission after closing date of admissions and the seats vacated by these candidates are remaining vacant thereafter."
       ]
     },
     {
@@ -105,38 +109,11 @@
         "Is financial aid available?"
       ],
       "responses": [
-        "Yes, we offer various scholarships based on merit and financial need. You can apply for scholarships during the admission process.",
-        "Scholarships are available for students with outstanding academic performance or those in financial need. More details are available on our website."
+        "Scholarships are available for students with outstanding academic performance or those in financial need. For more queries contact Office e-mail ID : scholarshipsection@nitj.ac.in "
       ]
     },
     {
-      "tag": "entrance_exam",
-      "patterns": [
-        "Do I need to take an entrance exam?",
-        "Is there an entrance test?",
-        "What exams are required for admission?",
-        "Which entrance exams are accepted?"
-      ],
-      "responses": [
-        "Yes, some programs require you to take an entrance exam. The specific exams depend on the course you're applying for.",
-        "For certain courses, entrance exams are mandatory. The details can be found in the admission requirements for each program."
-      ]
-    },
-    {
-      "tag": "important_dates",
-      "patterns": [
-        "What are the important dates for admission?",
-        "When is the application deadline?",
-        "When does the admission process start?",
-        "What is the last date to apply?"
-      ],
-      "responses": [
-        "The important dates, including the application deadline and entrance exam dates, are listed on our admissions calendar on the website.",
-        "Application deadlines and other important dates vary by program. Please refer to our admissions page for the exact timeline."
-      ]
-    },
-    {
-      "tag": "campus_facilities",
+      "tag": "AMENITIES : campus_facilities",
       "patterns": [
         "What facilities are available on campus?",
         "Tell me about the campus facilities.",
@@ -144,51 +121,11 @@
         "What resources are available for students?"
       ],
       "responses": [
-        "Our campus offers state-of-the-art facilities including a library, sports complex, laboratories, and student housing.",
-        "We provide various amenities like Wi-Fi, a well-equipped gym, a cafeteria, and student support services."
+        "Our campus offers Cultural clubs, technical clubs, banks ATMs, daily commute, canteens ,shops ,accomodation, health care services, sports and gymnasium"
       ]
     },
     {
-      "tag": "application_status",
-      "patterns": [
-        "What is the status of my application?",
-        "How can I check my application status?",
-        "Has my application been processed?",
-        "Is my application approved?"
-      ],
-      "responses": [
-        "You can check the status of your application by logging into the admission portal with your credentials.",
-        "To view your application status, please visit our website and use the application tracker tool."
-      ]
-    },
-    {
-      "tag": "document_submission",
-      "patterns": [
-        "What documents are required for admission?",
-        "How do I submit my documents?",
-        "What is the last date for document submission?",
-        "Where do I upload my documents?"
-      ],
-      "responses": [
-        "The required documents typically include your high school transcripts, ID proof, and any relevant certificates. You can upload them on our admissions portal.",
-        "You can submit your documents online via the admissions portal. Please make sure they are submitted before the deadline."
-      ]
-    },
-    {
-      "tag": "interview_process",
-      "patterns": [
-        "Is there an interview process?",
-        "What should I expect in the interview?",
-        "How do I prepare for the interview?",
-        "When will the interview be scheduled?"
-      ],
-      "responses": [
-        "Some programs require an interview as part of the admission process. You will be notified of the interview schedule after your application is reviewed.",
-        "The interview process typically assesses your interest in the program, your academic background, and your future goals. Be prepared to discuss these topics."
-      ]
-    },
-    {
-      "tag": "hostel_accommodation",
+      "tag": "AMENITIES : hostel_accommodation",
       "patterns": [
         "Is hostel accommodation available?",
         "How do I apply for hostel accommodation?",
@@ -196,12 +133,11 @@
         "Can I stay on campus?"
       ],
       "responses": [
-        "Yes, hostel accommodation is available for students. You can apply for it during the admission process.",
-        "Our hostels offer comfortable living spaces with facilities like Wi-Fi, dining halls, and recreation rooms. Apply early to secure a spot."
+        "Yes, hostel accommodation is available for students. You can apply for it during the admission process. There are Ten Boy’s Hostels and Three Girl’s Hostels. The facilities of reading room, indoor games, washing machines etc. are available in each hostel. Internet facility is provided in most of the hostels. Other facilities like geysers, water purifiers and water coolers are provided in all the hostels. Each hostel has a guest room with all basic amenities that can be booked by students for their parents/guests through hostel clerk on the recommendation of warden of the hostel."
       ]
     },
     {
-      "tag": "placement_support",
+      "tag": "PLACEMENT: placement_support",
       "patterns": [
         "What placement support do you offer?",
         "How is the placement process?",
@@ -214,20 +150,7 @@
       ]
     },
     {
-      "tag": "course_duration",
-      "patterns": [
-        "What is the duration of this course?",
-        "How long does the program last?",
-        "Is this a full-time or part-time course?",
-        "What are the timings for the course?"
-      ],
-      "responses": [
-        "The course duration varies depending on the program. Most undergraduate programs last 3-4 years, while postgraduate programs are typically 2 years.",
-        "Our programs are full-time, with classes scheduled during weekdays. Specific timings depend on the course schedule."
-      ]
-    },
-    {
-      "tag": "international_students",
+      "tag": "ADMISSION : international_students",
       "patterns": [
         "Do you accept international students?",
         "What is the process for international admissions?",
@@ -235,21 +158,7 @@
         "What are the visa requirements for studying here?"
       ],
       "responses": [
-        "Yes, we welcome international students. The admission process is similar, but you will also need to provide proof of English proficiency and a valid visa.",
-        "International students can apply for scholarships. Please check our website for specific details and eligibility criteria."
-      ]
-    },
-    {
-      "tag": "credit_transfer",
-      "patterns": [
-        "Can I transfer credits from another college?",
-        "How does the credit transfer process work?",
-        "Will my previous college credits be accepted?",
-        "Can I join the program in the second year?"
-      ],
-      "responses": [
-        "Yes, we allow credit transfers from accredited institutions. You will need to provide transcripts and course descriptions for evaluation.",
-        "The credit transfer process involves reviewing your previous coursework to determine if it aligns with our program's curriculum."
+        "International students can apply for scholarships. Please check our website for specific details and eligibility criteria.  For General Queries: diia@nitj.ac.in"
       ]
     },
     {
@@ -261,8 +170,7 @@
         "How do I book a tour of the college?"
       ],
       "responses": [
-        "We offer both in-person and virtual campus tours. You can schedule a visit through our website.",
-        "Our virtual tour provides a comprehensive view of the campus, including classrooms, labs, and dormitories. Book your tour online!"
+        "Our virtual tour provides a comprehensive view of the campus, including classrooms, labs, and dormitories."
       ]
     },
     {
@@ -279,58 +187,7 @@
       ]
     },
     {
-      "tag": "financial_aid",
-      "patterns": [
-        "Is financial aid available?",
-        "How do I apply for financial aid?",
-        "What are the financial aid options?",
-        "Can I get a loan for my studies?"
-      ],
-      "responses": [
-        "Yes, financial aid is available for eligible students. You can apply through our financial aid office during the admission process.",
-        "We offer various financial aid options, including scholarships, grants, and student loans. Detailed information is available on our website."
-      ]
-    },
-    {
-      "tag": "language_requirements",
-      "patterns": [
-        "What are the language requirements for admission?",
-        "Do I need to take an English proficiency test?",
-        "What is the minimum TOEFL/IELTS score required?",
-        "Are language courses available for non-native speakers?"
-      ],
-      "responses": [
-        "Non-native English speakers are required to submit TOEFL/IELTS scores as part of the admission process. The minimum score requirements are listed on our website.",   "We offer language support programs for non-native speakers to help them improve their English proficiency before starting their academic courses."
-      ]
-    },
-    {
-      "tag": "course_customization",
-      "patterns": [
-        "Can I choose electives?",
-        "Is there flexibility in course selection?",
-        "Can I design my own study plan?",
-        "Are there interdisciplinary courses available?"
-      ],
-      "responses": [
-        "Yes, our programs offer a variety of electives, allowing you to tailor your education to your interests.",
-        "You have the flexibility to choose courses from different disciplines to create a personalized study plan."
-      ]
-    },
-    {
-      "tag": "internship_opportunities",
-      "patterns": [
-        "Are internships part of the program?",
-        "Can I get an internship during my studies?",
-        "What companies offer internships to students?",
-        "Is there support for finding internships?"
-      ],
-      "responses": [
-        "Yes, many of our programs include mandatory internships. We also provide support in finding internship opportunities.",
-        "Our career services team helps connect students with companies offering internships in various fields."
-      ]
-    },
-    {
-      "tag": "alumni_network",
+      "tag": "ALUMNI : alumni_network",
       "patterns": [
         "Is there an alumni network?",
         "How can I connect with alumni?",
@@ -343,7 +200,7 @@
       ]
     },
     {
-      "tag": "campus_safety",
+      "tag": "AMENITIES : campus_safety",
       "patterns": [
         "How safe is the campus?",
         "What security measures are in place?",
@@ -351,162 +208,554 @@
         "How do you ensure student safety?"
       ],
       "responses": [
-        "Our campus is equipped with 24/7 security, CCTV surveillance, and emergency response teams to ensure student safety.",
-        "We take campus safety seriously, with regular security patrols and a dedicated student safety app for instant alerts."
+        "Our campus is equipped with 24/7 security, CCTV surveillance to ensure students safety."
       ]
     },
-    {
-      "tag": "part_time_jobs",
-      "patterns": [
-        "Can I work part-time while studying?",
-        "Are there any on-campus job opportunities?",
-        "What are the rules for part-time work for students?",
-        "How do I find part-time work?"
-      ],
-      "responses": [
-        "Yes, students are allowed to work part-time during their studies. On-campus jobs are available, and you can find listings through our career services.",
-        "Part-time work opportunities are posted on our student portal. We also have partnerships with local businesses for off-campus jobs."
-      ]
-    },
-    {
-      "tag": "identity",
-      "patterns": [
-        "Who are you?",
-        "What are you?",
-        "Are you a robot?",
-        "Tell me about yourself",
-        "What is your name?"
-      ],
-      "responses": [
-        "I’m a virtual assistant here to help you with your college admissions queries.",
-        "I'm an AI designed to assist you with information about college admissions and other queries.",
-        "I'm your friendly chatbot, ready to help you with anything related to our college."
-      ]
-    },
-    {
-      "tag": "capabilities",
-      "patterns": [
-        "What can you do?",
-        "How can you help me?",
-        "What services do you offer?",
-        "Can you answer questions?"
-      ],
-      "responses": [
-        "I can assist you with queries about college admissions, course information, campus facilities, and more.",
-        "I can help you find information about our college, guide you through the admission process, and answer your questions.",
-        "I'm here to provide information, guide you through procedures, and answer any queries you might have."
-      ]
-    },
-    {
-      "tag": "jokes",
-      "patterns": [
-        "Tell me a joke",
-        "Make me laugh",
-        "Do you know any jokes?",
-        "Tell me something funny"
-      ],
-      "responses": [
-        "Why don't scientists trust atoms? Because they make up everything!",
-        "What do you get when you cross a snowman and a vampire? Frostbite!",
-        "I would tell you a chemistry joke, but I know I wouldn’t get a reaction."
-      ]
-    },
-    {
-      "tag": "time",
-      "patterns": [
-        "What time is it?",
-        "Can you tell me the time?",
-        "What’s the time?",
-        "Do you know the time?"
-      ],
-      "responses": [
-        "I'm not equipped with a clock, but you can easily check the time on your device!",
-        "I can't tell time, but I'm always here whenever you need help.",
-        "Sorry, I can't tell the time, but I'm here to assist with any other queries!"
-      ]
-    },
-    {
-      "tag": "weather",
-      "patterns": [
-        "What's the weather like?",
-        "How's the weather today?",
-        "Is it going to rain?",
-        "Tell me the weather"
-      ],
-      "responses": [
-        "I can't check the weather, but you can easily find it on your favorite weather app.",
-        "I'm not able to provide weather updates, but I'm great at answering college-related questions!",
-        "Weather isn't my specialty, but I'm here to help with anything else you need."
-      ]
-    },
-    {
-      "tag": "age",
-      "patterns": [
-        "How old are you?",
-        "When were you created?",
-        "What’s your age?",
-        "How long have you been around?"
-      ],
-      "responses": [
-        "Age is just a number, and as an AI, I'm timeless!",
-        "I was created to help you, and I’m always learning new things.",
-        "I'm as old as the internet... just kidding, I'm always here, always ready to assist!"
-      ]
-    },
-    {
-      "tag": "favorite_color",
-      "patterns": [
-        "What’s your favorite color?",
-        "Do you have a favorite color?",
-        "Tell me your favorite color"
-      ],
-      "responses": [
-        "I love all colors equally, but blue seems pretty cool!",
-        "As an AI, I appreciate all colors, but I think green is quite refreshing.",
-        "I don’t have a favorite, but I’ve heard that blue is quite popular!"
-      ]
-    },
-    {
-      "tag": "compliment",
-      "patterns": [
-        "You are smart",
-        "You're doing a great job",
-        "I like you",
-        "You are helpful"
-      ],
-      "responses": [
-        "Thank you! I’m here to help.",
-        "I’m glad I could assist you!",
-        "Thanks for the compliment! Let me know how else I can help.",
-        "I appreciate it! I'm here to make your experience better."
-      ]
-    },
-    {
-      "tag": "small_talk",
-      "patterns": [
-        "How's it going?",
-        "What's up?",
-        "How are you?",
-        "How's your day?"
-      ],
-      "responses": [
-        "I’m doing great, thanks for asking! How can I assist you today?",
-        "All systems go! How can I help you?",
-        "I’m here and ready to help you with any questions.",
-        "I’m good, thank you! How can I make your day better?"
-      ]
-    }
-    ,
     {
       "tag": "contact_details",
       "patterns": [
         "How can I contact the admissions office?",
         "What is the contact number for admissions?",
         "Who can I talk to about admissions?",
-        "Where can I get more information?"
+        "Where can I get more information?",
+        "contact"
       ],
       "responses": [
-        "For more information, please reach out to the admissions office. You can find all the contact details on our website."
+        "Dr B R Ambedkar National Institute of Technology Jalandhar,\n G.T Road, Amritsar Bypass, Jalandhar, Punjab, India-144008\n    +91-0181-5037855, 2690301, 2690453, 3082000"
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Good morning",
+        "Good evening",
+        "Is anyone there?"
+      ],
+      "responses": [
+        {
+          "type": "text",
+          "text": "Visit the official NIT Jalandhar admissions page for more information.",
+          "url": "https://www.nitj.ac.in"
+        },
+        {
+          "type": "image",
+          "image_url": "https://images.shiksha.com/mediadata/images/1488193562phpBbf6YJ.jpeg",
+          "text": ""
+        }
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank you very much"
+      ],
+      "responses": [
+        {
+          "type": "text",
+          "text": "Visit the official NIT Jalandhar admissions page for more information.",
+          "url": "https://www.nitj.ac.in"
+        }
+      ]
+    },
+    {
+      "tag": "josaa_csab_overview",
+      "patterns": [
+        "What is JOSAA and CSAB?",
+        "Difference between JOSAA and CSAB",
+        "Admission process for NIT after JEE Main",
+        "Admission through JOSSA"
+      ],
+      "responses": [
+        {
+          "type": "text",
+          "text": "JOSAA handles initial seat allocation while CSAB conducts special rounds for remaining seats. JOSAA occurs first, followed by CSAB for vacant seats in NITs/IIITs/GFTIs.",
+          "url": "https://csab.nic.in"
+        }
+      ]
+    },
+    {
+      "tag": "csab_dates",
+      "patterns": [
+        "CSAB 2025 schedule",
+        "When does CSAB counselling start?",
+        "Important dates for special rounds"
+      ],
+      "responses": [
+        {
+          "type": "text",
+          "text": "Key CSAB 2025 dates: Registration starts July, Seat allotment in August. Check exact schedule at official portal.",
+          "url": "https://csab.nic.in"
+        }
+      ]
+    },
+    {
+      "tag": "csab_eligibility",
+      "patterns": [
+        "Who can apply for CSAB?",
+        "CSAB qualification criteria",
+        "Eligibility for special rounds"
+      ],
+      "responses": [
+        {
+          "type": "text",
+          "text": "Must have valid JEE Main 2025 rank. Either not allotted through JOSAA or seeking upgrade. Detailed criteria available at CSAB portal.",
+          "url": "https://csab.nic.in"
+        }
+      ]
+    },
+    {
+      "tag": "seat_allotment_process",
+      "patterns": [
+        "How CSAB seat allocation works",
+        "Steps in CSAB counselling",
+        "Choice filling process"
+      ],
+      "responses": [
+        {
+          "type": "text",
+          "text": "Process includes: 1) Registration 2) Choice filling 3) Seat allotment 4) Fee payment 5) Reporting. Detailed steps available at CSAB website.",
+          "url": "https://csab.nic.in"
+        }
+      ]
+    },
+    {
+      "tag": "document_verification",
+      "patterns": [
+        "Documents needed for CSAB",
+        "What to carry for admission reporting",
+        "Verification process"
+      ],
+      "responses": [
+        {
+          "type": "text",
+          "text": "Required documents: JEE Main scorecard, class 10/12 marksheets, category certificate (if applicable), and seat allotment letter. Full checklist available at CSAB portal.",
+          "url": "https://csab.nic.in"
+        }
+      ]
+    },    
+    {
+      "tag": "academic_calendar",
+      "patterns": [
+        "What is the academic calendar for the current year?",
+        "When does the next semester begin at NIT Jalandhar?",
+        "Academic calender"
+      ],
+      "responses": [
+        {
+        "type": "text",
+        "text": "The academic calendar for the current year can be found on the official NIT Jalandhar website.",
+        "url": "https://nitj.ac.in/template/index.html?id=6433e06be7b7ce1ef620fd53?category=notice"
+        }
+      ]
+    },
+    {
+      "tag": "course_syllabus_results",
+      "patterns": [
+        "Where can I find my course syllabus?",
+        "How do I check my semester results?",
+        "Semester Result",
+        "ERP portal"
+      ],
+      "responses": [
+        
+        {
+          "type": "text",
+          "text": "You can find your course syllabus and semester results on the NIT Jalandhar ERP portal. \n Log in with your credentials to access the required information.",
+          "url": "https://v1.nitj.ac.in/erp/login"
+          }
+      ]
+    },
+    {
+      "tag": "fee_payment_refund",
+      "patterns": [
+        "Where do I submit my fee payments?",
+        "Fees",
+        "Semester registration",
+        "How do I apply for a refund of hostel or academic fees?"
+      ],
+      "responses": [
+        {
+          "type": "text",
+          "text":   "Fee payments can be submitted online through the NIT Jalandhar ERP portal."          ,
+          "url": "https://v1.nitj.ac.in/erp/login"
+          }
+      ]
+    },
+    {
+      "tag": "hostel_facilities_mess_timings",
+      "patterns": [
+        "Where can I find information about the hostel facilities?",
+        "What are the mess timings in the hostel?",
+        "Hostel fees",
+        "Allotment of hostels",
+        " to avail hostel accommodation"
+      ],
+      "responses": [
+        {
+          "type": "text",
+          "text": "Information about hostel facilities and mess timings can be found on the NIT Jalandhar hostel portal. Mess timings are usually from 7:00 AM to 9:00 PM, but please check the official website for any updates."          ,
+          "url": "https://www.nitj.ac.in/template/index.html?id=66b2155270badb0d8d3d7c7c?category=newpage"
+          }
+      ]
+    },
+    {
+      "tag": "library_access_books",
+      "patterns": [
+        "How can I access the college library?",
+        "Can I borrow books from the library for an extended period?"
+      ],
+      "responses": [
+        {
+          "type": "text",
+          "text":  " You can access the college library using your student ID card. Books can be borrowed for a standard period of 14 days, with the option to renew if no one else has reserved the book. For more details, visit the library section on the official website." ,
+          "url": "http://lib.nitj.ac.in/"
+          }
+      ]
+    },
+ 
+    {
+      "tag": "join_club_sports_facilities",
+      "patterns": [
+        "How do I join a club or society at NIT Jalandhar?",
+        "What sports facilities are available on campus?",
+        "Student life at campus"
+
+      ],
+      "responses": [
+        {
+          "type": "text",
+          "text": "To join a club or society, attend the induction sessions held at the beginning of the semester. Sports facilities include a gym, basketball court, football ground, and more. Check the official website for a complete list."
+          ,
+          "url": "  https://www.nitj.ac.in/admissions/student_life.html"
+          }
+      ]
+    },
+    {
+      "tag": "cultural_events_fest_participation",
+      "patterns": [
+        "Are there any cultural events or fests happening this semester?",
+        "How do I participate in the college fest?"
+      ],
+      "responses": [
+        {
+          "type": "text",
+          "text":         "Cultural events and fests are held regularly. To participate, register for the events through the official fest website or contact the organizing committee. Visit the website for the latest updates." ,
+          "url": "  https://www.nitj.ac.in/admissions/student_life.html"
+          }
+      ]
+    },
+    {
+      "tag": "backlog_clearance_supplementary_exams",
+      "patterns": [
+        "What happens if I have a backlog in the first semester?",
+        "Can I clear a backlog through supplementary exams?"
+      ],
+      "responses": [
+        "If you have a backlog, you will need to clear it in the subsequent semesters. Supplementary exams are available for backlog clearance. For more details, visit the examination section on the official website."
+      ]
+    },
+    {
+      "tag": "placement_season_registration",
+      "patterns": [
+        "When does the placement season begin for NIT Jalandhar students?",
+        "How do I register for campus placements?"
+      ],
+      "responses": [
+        "The placement season typically begins in the final year. To register, update your profile on the placement portal and attend pre-placement talks. Visit the placement cell website for more details."
+      ]
+    },
+    {
+      "tag": "average_salary_placement_tips",
+      "patterns": [
+        "What is the average salary offered to NIT Jalandhar graduates?",
+        "How can I improve my chances of getting placed through campus recruitment?"
+      ],
+      "responses": [
+        "The average salary varies by department and company. To improve your chances, participate in internships, workshops, and mock interviews organized by the placement cell. Check the official website for more tips."
+      ]
+    },
+    {
+      "tag": "technical_fest_details",
+      "patterns": [
+        "What is the name of the technical fest at NIT Jalandhar?",
+        "When is the next technical fest being held at NIT Jalandhar?"
+      ],
+      "responses": [
+        "The technical fest at NIT Jalandhar is called [insert name]. The next fest is scheduled for [insert date]. Visit the official fest website for more details."
+      ]
+    },
+    {
+      "tag": "technical_fest_registration",
+      "patterns": [
+        "How can I register for events in the technical fest?",
+        "Can first-year students participate in the technical fest events?"
+      ],
+      "responses": [
+        "Registration for technical fest events is done online through the fest website. First-year students are encouraged to participate. Check the official website for registration deadlines and event details."
+      ]
+    },
+    {
+      "tag": "medical_appointment_bus_pass",
+      "patterns": [
+        "How do I book a medical appointment at the campus hospital?"      ],
+      "responses": [
+        "Medical appointments can be booked online or by visiting the campus hospital.Visit the official website for more information."
+      ]
+    },
+    {
+      "tag": "part_time_jobs_club_joining",
+      "patterns": [
+        "How do I join a club or society at NIT Jalandhar?",
+        "Are there any part-time jobs available for students on campus?"
+      ],
+      "responses": [
+        "To join a club or society, attend the induction sessions held at the beginning of the semester. Part-time job opportunities are posted on the student notice board and the official website. Check the website for updates."
+      ]
+    },
+    {
+      "tag": "summer_internship_career_counseling",
+      "patterns": [
+        "Is there any summer internship program for first-year students?",
+        "How do I get career counseling or resume-building tips at NIT Jalandhar?"
+      ],
+      "responses": [
+        "Summer internships for first-year students are limited but available through certain programs. Career counseling and resume-building tips are provided by the placement cell. Visit the official website for more details."
+      ]
+    },
+    {
+      "tag": "placement_cell_internship_contact",
+      "patterns": [
+        "How do I contact the placement cell for internship opportunities?",
+        "What kind of companies come for campus recruitment at NIT Jalandhar?"
+      ],
+      "responses": [
+        "You can contact the placement cell via email or by visiting their office. Companies from various sectors, including IT, core engineering, and consulting, visit for campus recruitment. Check the placement cell website for a list of recruiters."
+      ]
+    },
+    {
+      "tag": "hackathon_details_registration",
+      "patterns": [
+        "What is the name of the hackathon organized by NIT Jalandhar?",
+        "When is the next hackathon being held at NIT Jalandhar?"
+      ],
+      "responses": [
+        "The hackathon organized by NIT Jalandhar is called [insert name]. The next hackathon is scheduled for [insert date]. Visit the official fest website for more details."
+      ]
+    },
+    {
+      "tag": "hackathon_participation",
+      "patterns": [
+        "How can I register for the hackathon?",
+        "Is the hackathon open to all students, including first-years?"
+      ],
+      "responses": [
+        "Registration for the hackathon is done online through the fest website. The event is open to all students, including first-years. Check the official website for registration deadlines and event details."
+      ]
+    },
+    {
+      "tag": "cultural_fest_details",
+      "patterns": [
+        "What is the name of the cultural fest at NIT Jalandhar?",
+        "When is the cultural fest taking place?"
+      ],
+      "responses": [
+        "The cultural fest at NIT Jalandhar is called [insert name]. The next fest is scheduled for [insert date]. Visit the official fest website for more details."
+      ]
+    },
+    {
+      "tag": "cultural_fest_participation",
+      "patterns": [
+        "How do I register for events in the cultural fest?",
+        "Are first-year students allowed to participate in the cultural fest events?"
+      ],
+      "responses": [
+        "Registration for cultural fest events is done online through the fest website. First-year students are encouraged to participate. Check the official website for registration deadlines and event details."
+      ]
+    },
+    {
+      "tag": "mentor_academic_advisor",
+      "patterns": [
+        "How do I find a mentor or academic advisor?",
+        "How do I get involved in social outreach or community service?"
+      ],
+      "responses": [
+        "Mentors and academic advisors are assigned to students at the beginning of the semester. For social outreach or community service, contact the NSS (National Service Scheme) cell. Visit the official website for more information."
+      ]
+    },
+    {
+      "tag": "club_joining_first_year",
+      "patterns": [
+        "How do I join a club at NIT Jalandhar?",
+        "Are first-year students allowed to join any club?"
+      ],
+      "responses": [
+        "To join a club, attend the induction sessions held at the beginning of the semester. First-year students are allowed to join most clubs. Check the official website for a list of clubs and their activities."
+      ]
+    },
+    {
+      "tag": "attendance_policy_medical_leave",
+      "patterns": [
+        "What is the attendance policy at NIT Jalandhar?",
+        "Can I get a medical leave from class?"
+      ],
+      "responses": [
+        "The attendance policy requires students to maintain a minimum of 75% attendance. Medical leave can be granted with proper documentation. Visit the official website for more details on the policy."
+      ]
+    },
+    {
+      "tag": "low_attendance_missed_exam",
+      "patterns": [
+        "What happens if I have less than 75% attendance in a subject?",
+        "What should I do if I miss an exam due to illness?"
+      ],
+      "responses": [
+        "If you have less than 75% attendance, you may be debarred from appearing for the exam. In case of illness, submit a medical certificate to the examination cell for consideration."
+      ]
+    },
+    {
+      "tag": "past_exam_papers_lecture_notes",
+      "patterns": [
+        "Where can I find past exam papers for practice?"
+      ],
+      "responses": [
+        "Past exam papers are available in the library or on the ERP portal."
+      ]
+    },
+    {
+      "tag": "library_books_hall_ticket",
+      "patterns": [
+        "Can I borrow books from the library for an extended period?",
+        "What is the procedure for getting my hall ticket for exams?"
+      ],
+      "responses": [
+        "Books can be borrowed for a standard period of 14 days, with the option to renew. Hall tickets for exams can be downloaded from the ERP portal. Check the official website for more information."
+      ]
+    },
+    {
+      "tag": "hostel_leave_room_issues",
+      "patterns": [
+        "How do I apply for leave from the hostel?",
+        "How do I report a problem with my hostel room or facilities?"
+      ],
+      "responses": [
+        "To apply for hostel leave, submit a leave application to the hostel warden. To report problems, contact the hostel maintenance office or use the online complaint system at NITJ ERP Portal."
+      ]
+    },
+    {
+      "tag": "lost_id_card",
+      "patterns": [
+        "What do I do if I lose my student ID card?",
+        "ID Card lost",
+        "Identity card lost"
+      ],
+      "responses": [
+        "If you lose your student ID card, report it to the administration office and apply for a replacement. Check the official website for more information."
+      ]
+    },
+    {
+      "tag": "scholarship_financial_aid",
+      "patterns": [
+        "What is the process for applying for scholarships or financial aid?",
+        "Can I use my college email for official communication with companies?"
+      ],
+      "responses": [
+        "Scholarships and financial aid applications are submitted online through the official portal. College email can be used for official communication with companies. Visit the official website for more details."
+      ]
+    },
+    {
+      "tag": "document_verification_education_loan",
+      "patterns": [
+        "How do I get my documents verified for a degree or scholarship application?",
+        "How do I apply for an education loan through NIT Jalandhar?"
+      ],
+      "responses": [
+        "Document verification can be done at the administration office. For education loans, contact the designated bank or financial aid office. Check the official website for more information."
+      ]
+    },
+    {
+      "tag": "medical_appointment_bus_pass",
+      "patterns": [
+        "How do I book a medical appointment at the campus hospital?"
+      ],
+      "responses": [
+        "Medical appointments can be booked online or by visiting the campus hospital. Bus passes are available at the transport office."
+      ]
+    },
+    {
+      "tag": "hostel_room_occupancy_wifi_issues",
+      "patterns": [
+        "How do I check my hostel room's occupancy status?",
+        "What do I do if I am facing issues with the Wi-Fi on campus?"
+      ],
+      "responses": [
+        "Hostel room occupancy status can be checked on the hostel portal. For Wi-Fi issues, complaint at ERP portal."
+      ]
+    },
+    {
+      "tag": "student_helpdesk_discounts",
+      "patterns": [
+        "Is there a student helpdesk or support center?",
+        "Can I get a discount for NIT Jalandhar students at nearby stores?"
+      ],
+      "responses": [
+        "Yes, there is a student helpdesk located in the main administrative building. Discounts for students at nearby stores may vary; check with the stores directly or the student union for more information."
+      ]
+    },
+    {
+      "tag": "bullying_harassment_counseling",
+      "patterns": [
+        "How do I report a bullying or harassment incident?",
+        "Is there a student counseling service available on campus?"
+      ],
+      "responses": [
+        "Bullying or harassment incidents can be reported to the student welfare office or the anti-ragging committee. Counseling services are available through the student counseling center. Visit the official website for more details."
+      ]
+    },
+    {
+      "tag": "sports_facilities_clubs",
+      "patterns": [
+        "What sports facilities are available on campus?",
+        "Are there any clubs that focus on sports and physical fitness?"
+      ],
+      "responses": [
+        "Sports facilities include a gym, basketball court, football ground, and more. There are several sports clubs that focus on physical fitness and training. Check the official website for a complete list of facilities and clubs."
+      ]
+    },
+    {
+      "tag": "sports_clubs_gym_timings",
+      "patterns": [
+        "How do I join the sports clubs for badminton, football, or cricket?",
+        "What are the gym timings for different year students?"
+      ],
+      "responses": [
+        "To join sports clubs, attend the induction sessions held at the beginning of the semester. Gym timings vary for different year students; check the sports complex notice board or the official website for details."
+      ]
+    },
+    {
+      "tag": "student_exchange_study_abroad",
+      "patterns": [
+        "Where can I find information about student exchange programs?",
+        "How do I apply for a study abroad program?"
+      ],
+      "responses": [
+        "Information about student exchange programs is available on the international relations office website. To apply for a study abroad program, submit an application through the same portal. Visit the official website for more details."
+      ]
+    },
+    
+    {
+      "tag": "multiple_backlogs_deferral",
+      "patterns": [
+        "How do I handle multiple backlogs in different subjects?",
+        "Can I request a deferral in case I have multiple backlogs and need time?"
+      ],
+      "responses": [
+        "To handle multiple backlogs, create a study plan and focus on one subject at a time. Deferral requests are considered on a case-by-case basis; contact the examination cell for more information."
       ]
     }
   ]
